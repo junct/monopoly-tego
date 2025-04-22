@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Dice Generator - Monopoly GO</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #ffd700, #ff5733);
+      color: white;
+      text-align: center;
+    }
+    .container {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      animation: fadeInDown 1s ease-in-out;
+    }
+    p {
+      font-size: 1.2rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+    .dice-animation {
+      margin: 30px auto;
+      width: 100px;
+      height: 100px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alea_1.png/600px-Alea_1.png');
+      background-size: cover;
+      animation: roll 1.2s infinite;
+    }
+    @keyframes roll {
+      0% { transform: rotate(0deg); }
+      50% { transform: rotate(180deg); }
+      100% { transform: rotate(360deg); }
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: white;
+      background-color: #e60000;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      animation: fadeIn 2s ease-in-out;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+    .cta-button:hover {
+      background-color: #cc0000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎲 Get Free Dice Rolls in Monopoly GO!</h1>
+    <p>Use our exclusive generator to claim up to <strong>1000 free dice rolls</strong> instantly!</p>
+    <div class="dice-animation"></div>
+    <a href="https://free-tools.raj-solution.com/077ab49" class="cta-button">Verify Now to Claim</a>
+  </div>
+</body>
+</html>
